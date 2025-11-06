@@ -2,4 +2,4 @@
 
 Projeto desenvolvido para prática de HTML semântico.
 
-https://FellipeTadeu.github.io/estrutura-html-basico/
+URL : https://roadmap.sh/projects/basic-html-website
