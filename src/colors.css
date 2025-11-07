@@ -1,0 +1,37 @@
+/* colors.css — Paleta base de cores */
+
+:root {
+  /* 🎯 Cores principais */
+  --color-primary: #1a73e8;   /* Azul Google */
+  --color-secondary: #5f6368; /* Cinza médio elegante */
+  --color-accent: #34a853;    /* Verde destaque */
+  --color-danger: #ea4335;    /* Vermelho alerta */
+  --color-warning: #fbbc05;   /* Amarelo aviso */
+
+  /* 🌤️ Fundo e superfícies */
+  --color-bg: #ffffff;        /* Fundo claro */
+  --color-surface: #f1f3f4;   /* Cartões, blocos */
+
+  /* 🧠 Texto */
+  --color-text: #202124;      /* Texto principal */
+  --color-text-light: #5f6368;/* Texto secundário */
+
+  /* 🌈 Bordas e efeitos */
+  --color-border: #dadce0;
+  --color-shadow: rgba(0, 0, 0, 0.1);
+}
+
+/* 🌑 Tema escuro opcional */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-primary: #8ab4f8;
+    --color-secondary: #9aa0a6;
+    --color-accent: #81c995;
+    --color-bg: #202124;
+    --color-surface: #303134;
+    --color-text: #e8eaed;
+    --color-text-light: #bdc1c6;
+    --color-border: #3c4043;
+    --color-shadow: rgba(0, 0, 0, 0.4);
+  }
+}
